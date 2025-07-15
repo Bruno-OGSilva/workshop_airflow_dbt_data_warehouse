@@ -1,0 +1,29 @@
+[0m22:50:53.650051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE1FEF4980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE1BF9D520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE2062D010>]}
+
+
+============================== 22:50:53.701202 | 383744a8-2413-4ada-9018-1165988f1264 ==============================
+[0m22:50:53.701202 [info ] [MainThread]: Running with dbt=1.10.4
+[0m22:50:53.702210 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\bruno\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:52:17.751237 [debug] [MainThread]: Starter project path: C:\JornadaDados\workshop_airflow_dbt\1_local_setup\.venv\Lib\site-packages\dbt\include\starter_project
+[0m22:52:17.800186 [info ] [MainThread]: 
+Your new dbt project "jornada_dw" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m22:52:17.801179 [info ] [MainThread]: Setting up your profile.
+[0m22:56:29.902475 [info ] [MainThread]: Profile jornada_dw written to C:\Users\bruno\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m22:56:29.905672 [debug] [MainThread]: Command `dbt init` succeeded at 22:56:29.905143 after 336.51 seconds
+[0m22:56:29.906732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE1EBC5FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE22F3C8C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DE232DEC30>]}
+[0m22:56:29.908387 [debug] [MainThread]: Flushing usage events
+[0m22:56:30.176509 [debug] [MainThread]: An error was encountered while trying to flush usage events
